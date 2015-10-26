@@ -1,15 +1,18 @@
-package v.makarov.game.view;
+package game.view;
 
 import javafx.fxml.FXML;
-import v.makarov.game.MainApp;
+import game.MainApp;
+import javafx.scene.layout.VBox;
 
 import java.awt.*;
 
 /**
  * Created by Rustymattok on 25.10.2015.
  */
-public class mainMenuController {
+public class MainMenuController {
 
+    @FXML
+    private VBox buttons;
     @FXML
     private Button playBt;
     @FXML

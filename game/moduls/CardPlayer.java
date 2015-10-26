@@ -1,4 +1,4 @@
-package v.makarov.game.moduls;
+package game.moduls;
 
 import java.util.ArrayList;
 

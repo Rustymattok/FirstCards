@@ -1,4 +1,4 @@
-package v.makarov.game.moduls;
+package game.moduls;
 
 import javafx.geometry.Rectangle2D;
 import javafx.scene.image.Image;
@@ -13,7 +13,6 @@ import javafx.scene.shape.Rectangle;
  * Created by makarov_vv on 21.10.2015.
  */
 public class Picture  {
-//    private   Rectangle rectangle;
     private Integer number;
     private ImageView imageView;
     private int offsetX;

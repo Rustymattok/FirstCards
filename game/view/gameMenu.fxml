@@ -6,35 +6,56 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="v.makarov.game.view.gameMenuController">
-   <center>
-      <Pane prefHeight="89.0" prefWidth="400.0">
-         <children>
-            <Button layoutX="44.0" layoutY="14.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pushTakeOne" prefHeight="40.0" prefWidth="110.0" text="TakeOne">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="44.0" layoutY="71.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Lets'see">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-            <Button layoutX="43.0" layoutY="129.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pushBackButton" prefHeight="40.0" prefWidth="110.0" text="BACK">
-               <font>
-                  <Font size="18.0" />
-               </font>
-            </Button>
-         </children>
-      </Pane>
-   </center>
-   <bottom>
-      <Pane prefHeight="130.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
-   </bottom>
-   <top>
-      <Pane prefHeight="130.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
-   </top>
-   <right>
-      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
-   </right>
-</BorderPane>
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.view.GameMenuController">
+   <children>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0">
+         <bottom>
+            <AnchorPane prefHeight="150.0" prefWidth="400.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <right>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="textmy" layoutX="-85.0" layoutY="81.0" prefHeight="39.0" prefWidth="170.0" text="" visible="false">
+                     <font>
+                        <Font name="System Italic" size="18.0" />
+                     </font>
+                  </TextField>
+               </children></AnchorPane>
+         </right>
+         <top>
+            <AnchorPane prefHeight="150.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="reset" layoutX="135.0" layoutY="75.0" mnemonicParsing="false" onAction="#setReset" prefHeight="35.0" prefWidth="130.0" text="reset" visible="false" />
+               </children></AnchorPane>
+         </top>
+         <left>
+            <AnchorPane BorderPane.alignment="CENTER">
+               <children>
+                  <VBox prefHeight="139.0" prefWidth="160.0" spacing="20.0">
+                     <children>
+                        <Button fx:id="take" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pushTakeOne" prefHeight="40.0" prefWidth="160.0" text="TakeOne">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="let" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pushLets" prefHeight="40.0" prefWidth="110.0" text="Lets'see">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="back" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pushBackButton" prefHeight="40.0" prefWidth="110.0" text="BACK">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+               <BorderPane.margin>
+                  <Insets left="20.0" />
+               </BorderPane.margin>
+            </AnchorPane>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

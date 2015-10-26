@@ -1,4 +1,4 @@
-package v.makarov.game.moduls;
+package game.moduls;
 
 import javafx.scene.layout.Pane;
 
@@ -14,7 +14,6 @@ public class Card extends Pane {
        this.picture = picture;
         picture.setNumber(number);
         getChildren().add(picture.getImageView());
-        System.out.println(picture.getNumber());
     }
     public Picture getPicture() {
         return picture;
