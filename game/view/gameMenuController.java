@@ -43,6 +43,7 @@ public class GameMenuController {
     }
     @FXML
     public void pushLets() throws IOException {
+        MainApp.setCardsAll();
         textmy.setVisible(true);
         textmy.setText(MainApp.result(""));
         back.setVisible(false);
