@@ -1,0 +1,165 @@
+
+.main {
+     -fx-background-image: url("images/card_field1.jpg");
+     -fx-background-color: transparent;
+}
+
+#plBt
+{
+     -fx-background-color:#44c767,
+      linear-gradient(#d6d6d6 50%, green 100%),
+       radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+     -fx-background-radius: 30;
+     	-fx-display:inline-block;
+     	-fx-cursor:pointer;
+     	-fx-color:#ffffff;
+     	-fx-font-family:Arial;
+     	-fx-font-size:17px;
+     	-fx-font-style:italic;
+        -fx-padding:16px 31px;
+     	-fx-text-decoration:none;
+     }
+     #plBt:hover {
+     	-fx-background-color:#5cbf2a;
+     }
+     #plBt:active {
+     	-fx-position:relative;
+     	-fx-top:1px;
+     }
+     #exBt {
+     	-fx-background-color:#44c767,
+     	 linear-gradient(#d6d6d6 50%, green 100%),
+         radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+     	 -fx-background-radius: 30;
+     	-fx-display:inline-block;
+     	-fx-cursor:pointer;
+     	-fx-color:#ffffff;
+     	-fx-font-family:Arial;
+     	-fx-font-size:17px;
+     	-fx-font-style:italic;
+        -fx-padding:16px 31px;
+     	-fx-text-decoration:none;
+     }
+     #exBt:hover {
+     	-fx-background-color:#5cbf2a;
+     }
+     #exBt:active {
+     	-fx-position:relative;
+     	-fx-top:1px;
+     }
+       #take {
+          	-fx-background-color:#44c767,
+          	 linear-gradient(#d6d6d6 50%, green 100%),
+              radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+          	 -fx-background-radius: 30;
+          	-fx-display:inline-block;
+          	-fx-cursor:pointer;
+          	-fx-color:#ffffff;
+          	-fx-font-family:Arial;
+          	-fx-font-size:17px;
+          	-fx-font-style:italic;
+             -fx-padding:16px 31px;
+          	-fx-text-decoration:none;
+          }
+          #take:hover {
+          	-fx-background-color:#5cbf2a;
+          }
+          #take:active {
+          	-fx-position:relative;
+          	-fx-top:1px;
+          }
+      #let {
+     -fx-background-color:#44c767,
+     linear-gradient(#d6d6d6 50%, green 100%),
+	 radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+	-fx-background-radius: 30;
+	-fx-display:inline-block;
+	-fx-cursor:pointer;
+	-fx-color:#ffffff;
+	-fx-font-family:Arial;
+	-fx-font-size:17px;
+	-fx-font-style:italic;
+	-fx-padding:16px 31px;
+	-fx-text-decoration:none;
+                    }
+	#let:hover {
+	-fx-background-color:#5cbf2a;
+                    }
+	#let:active {
+	-fx-position:relative;
+	-fx-top:1px;
+                    }
+      #back {
+     -fx-background-color:#44c767,
+     linear-gradient(#d6d6d6 50%, green 100%),
+	 radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+	-fx-background-radius: 30;
+	-fx-display:inline-block;
+	-fx-cursor:pointer;
+	-fx-color:#ffffff;
+	-fx-font-family:Arial;
+	-fx-font-size:17px;
+	-fx-font-style:italic;
+	-fx-padding:16px 31px;
+	-fx-text-decoration:none;
+                    }
+	#back:hover {
+	-fx-background-color:#5cbf2a;
+                    }
+	#back:active {
+	-fx-position:relative;
+	-fx-top:1px;
+                    }
+      #reset {
+     -fx-background-color:#44c767,
+     linear-gradient(#d6d6d6 50%, green 100%),
+	 radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+	-fx-background-radius: 30;
+	-fx-display:inline-block;
+	-fx-cursor:pointer;
+	-fx-color:#ffffff;
+	-fx-font-family:Arial;
+	-fx-font-size:17px;
+	-fx-font-style:italic;
+	-fx-padding:16px 31px;
+	-fx-text-decoration:none;
+                    }
+	#reset:hover {
+	-fx-background-color:#5cbf2a;
+                    }
+	#reset:active {
+	-fx-position:relative;
+	-fx-top:1px;
+                    }
+ #textmy {
+     -fx-background-color:#44c767,
+     linear-gradient(#d6d6d6 50%, green 100%),
+	 radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+	-fx-background-radius: 12;
+	-fx-display:inline-block;
+	-fx-cursor:pointer;
+	-fx-color:#ffffff;
+	-fx-font-family:Arial;
+	-fx-font-size:17px;
+	-fx-font-style:italic;
+	-fx-padding:16px 31px;
+	-fx-text-decoration:none;
+                    }
+ #textmy2 {
+     -fx-background-color:#44c767,
+     linear-gradient(#d6d6d6 50%, green 100%),
+	 radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+	-fx-background-radius: 12;
+	-fx-display:inline-block;
+	-fx-cursor:pointer;
+	-fx-color:#ffffff;
+	-fx-font-family:Arial;
+	-fx-font-size:17px;
+	-fx-font-style:italic;
+	-fx-padding:16px 31px;
+	-fx-text-decoration:none;
+                    }
+
+
+
+
